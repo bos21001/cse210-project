@@ -1,9 +1,15 @@
-using System;
+namespace Learning03;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning03 World!");
+        Fraction fraction = new Fraction();
+        
+        fraction.SetTop(10);
+        fraction.SetBottom(3);
+        
+        System.Console.WriteLine(fraction.GetFractionString());
+        System.Console.WriteLine(fraction.GetFractionValue());
     }
 }
