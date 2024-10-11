@@ -28,6 +28,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sandbox", "sandbox\Sandbox\Sandbox.csproj", "{716AD7D8-8469-4B2C-8BF2-4CBDEA6425D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "foundation", "foundation", "{473BF896-AF2B-42A8-99A4-518444F424E5}"
+	ProjectSection(SolutionItems) = preProject
+		foundation\foundation1.md = foundation\foundation1.md
+		foundation2.md = foundation2.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foundation1", "foundation\Foundation1\Foundation1.csproj", "{88F2F63A-19BA-4BCF-9E5F-73FE4E6D2C34}"
 EndProject
