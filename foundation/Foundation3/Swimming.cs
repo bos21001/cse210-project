@@ -9,9 +9,9 @@ public class Swimming : Activity
         _laps = laps;
     }
 
-    public override double GetDistance() => (_laps * 50) / 1000.0; // in km
+    public override double GetDistance() => (_laps * 50) / 1000.0;
 
-    public override double GetSpeed() => (GetDistance() / Duration) * 60; // kph
+    public override double GetSpeed() => (GetDistance() / Duration) * 60;
 
-    public override double GetPace() => Duration / GetDistance(); // min per km
+    public override double GetPace() => Duration / GetDistance();
 }
